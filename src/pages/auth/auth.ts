@@ -55,11 +55,11 @@ export class AuthPage {
 
     if(this.data.email == null || this.data.password== null){
       this.alert = this.alertCtrl.create({
-        title: "Error",
-        subTitle: "Please you should enter all data",
+        title: "خطأ",
+        subTitle: "يجب ادخال الإيميل وكلمة المرور",
         buttons: [{
-          text: 'ok',
-          role: 'cancel',
+          text: 'نعم',
+          role: 'الغاء',
           handler: () => {
           }
         }]
