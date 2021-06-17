@@ -6,6 +6,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { AuthProvider } from '../../utils/api';
 import { HC_Storage } from '../../utils/storage';
 import 'rxjs/add/operator/map';
+import { IntroPage } from '../intro/intro';
 
 @Component({
   selector: 'page-auth',
@@ -126,6 +127,6 @@ export class AuthPage {
 
   }
   Back() {
-    this.navCtrl.pop()
+    this.navCtrl.setRoot(IntroPage)
   }
 }
