@@ -1,0 +1,110 @@
+// #06d495
+// #e2e2e2
+@font-face {
+  font-family: 'Kufi';
+  src:url('../assets/fonts/Droid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+ }
+ 
+@font-face {
+  font-family: 'Kufi';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../assets/fonts/kufi/DroidKufi-Bold.eot);
+  src: url(../assets/fonts/kufi/DroidKufi-Bold.eot) format('embedded-opentype');
+}
+
+// }
+html,
+body,
+ion-content,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+button,
+span,
+.toast-md,
+.toolbar-title {
+  font-family: 'Kufi', sans-serif !important;
+}
+
+html,
+body,
+ion-content,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+button,
+span,
+.toast-md,
+.toolbar-title {
+  font-family: 'Kufi', sans-serif !important;
+}
+//menu
+ion-menu .title-menu ion-icon { float: right };
+ion-menu[side=left] > .menu-inner {
+  right: 0;
+  left: auto;
+}
+div.menu-inner {
+  transform: translateX(0px) !important;
+}
+.menu-title{
+  text-align: right;
+  color: #fff;
+  background: #05bc84;
+  direction: rtl;
+}
+.list-md .item-block .item-inner {
+  border-bottom: 0px solid #dedede;
+}
+.bg-menu {
+  background: #05bc84;
+}
+.hide, [hidden], template {
+  display: block !important;
+}
+ .swiper-container-android .swiper-slide, .swiper-wrapper {
+  width: 100% !important;
+}
+.swiper-pagination-bullet {
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  width: 8px;
+  height: 8px;
+  background-color: #05bc84;
+  border-radius: 20px;
+}
+.swiper-pagination-bullet {
+background-color: #e2e2e2}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+bottom: 7px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #05bc84;
+
+}
+.swiper-slide img {
+  height: 110px;
+  width: 100%;
+}
+page-intro {
+
+  .bg {
+    background-image: url("../assets/imgs/bg.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+  }
+}
+.header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before {
+  height: 0;
+}

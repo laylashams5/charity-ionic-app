@@ -1,0 +1,50 @@
+page-intro {
+  div.scroll-content  {
+    background-image: url("assets/imgs/bg.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+  }
+
+.content-wrapper {
+  margin-top:100px
+}
+.btn-row {
+  margin-top:74px;
+}
+div.space {
+  margin-top: 65px;
+}
+button.ar {
+  background: #06d495;
+  border-radius: 6px;
+  height: 5rem;
+  box-shadow: 3px 2px 4px 2px #06d495;
+}
+button.en {
+  background: #e2e2e2;
+  border-radius: 6px;
+  height: 5rem;
+  color:#878787;
+  box-shadow: 3px 2px 4px 2px #e2e2e2;
+}
+button.ar > span.button-inner {
+  font-size: 20px;
+  font-family: 'Kufi' !important;
+
+}
+button.en > span.button-inner {
+    font-size: 20px;
+    font-weight: 600;
+    color: #888888;
+
+  }
+button-md.activated {
+  background:#06d495;
+  color:#fff
+}
+.logo {
+  display: table;
+  margin: 0 auto;
+}
+}

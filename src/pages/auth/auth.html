@@ -1,0 +1,102 @@
+<ion-content padding>
+  <ion-icon name="arrow-round-back" class="back" (click)="Back()"></ion-icon>
+  <ion-row class="logo-row">
+    <img src="assets/imgs/logo.png" class="logo">
+  </ion-row>
+  <ion-row class="spacer"></ion-row>
+
+  <ion-row class="login-wrapper">
+    <ion-col col-5 (click)="showLogin()" >
+    <p class="log {{ showlogin ? 'selected' : ''}}"> تسجيل دخول </p>
+    </ion-col>
+    <ion-col col-1> <p class="line"> | </p>  </ion-col>
+    <ion-col col-6 (click)="showRegister()">
+      <p class="reg {{ !showlogin ? 'selected' : ''}}"> انشاء حساب </p>
+    </ion-col>
+  </ion-row>
+
+  <ion-list *ngIf="showlogin">
+
+    <ion-item class="person-item">
+      <ion-label float>
+          <ion-icon ios="ios-at-outline" md="ios-at-outline" class="person-icon"></ion-icon>
+      </ion-label>
+      <ion-input placeholder="الإيميل" [(ngModel)]="data.email" type="text" class="person">  
+      </ion-input>
+    </ion-item>
+
+
+    <ion-item class="person-item">
+      <ion-label float>
+          <ion-icon ios="ios-lock-outline" md="ios-lock-outline" class="person-icon"></ion-icon>
+      </ion-label>
+      <ion-input placeholder="كلمة المرور" [(ngModel)]="data.password" type="password" class="person">  
+      </ion-input>
+    </ion-item>
+
+
+    <ion-row class="space"></ion-row>
+
+    <ion-row class="btn-row">
+      <button ion-button full class="ar" (click)="Login(data)">تسجيل دخول</button>
+        <ion-row class="space"></ion-row>
+      <button ion-button full  class="en" (click)="LoginAsVistor()">دخول زائر</button>
+    </ion-row>
+    <p class="forgot"> هل نسيت كلمة المرور؟ </p>
+  </ion-list>
+
+  <ion-list *ngIf="showregister">
+
+    <ion-item class="person-item">
+      <ion-label float>
+          <ion-icon ios="ios-person-outline" md="ios-person-outline" class="person-icon"></ion-icon>
+      </ion-label>
+      <ion-input placeholder="اسم المستخدم" ([ngModel])="username" type="text" class="person">  
+      </ion-input>
+    </ion-item>
+
+
+    <ion-item class="person-item">
+      <ion-label float>
+          <ion-icon ios="ios-call-outline" md="ios-call-outline" class="person-icon"></ion-icon>
+      </ion-label>
+      <ion-input placeholder="رقم الجوال" ([ngModel])="mobile" type="text" class="person">  
+      </ion-input>
+    </ion-item>
+
+
+    <ion-item class="person-item">
+      <ion-label float>
+          <ion-icon ios="ios-lock-outline" md="ios-lock-outline" class="person-icon"></ion-icon>
+      </ion-label>
+      <ion-input placeholder="كلمة المرور" ([ngModel])="password" type="password" class="person">  
+      </ion-input>
+    </ion-item>
+
+
+    <ion-item class="person-item">
+      <ion-label float>
+          <ion-icon ios="ios-lock-outline" md="ios-lock-outline" class="person-icon"></ion-icon>
+      </ion-label>
+      <ion-input placeholder="تأكيد كلمة المرور" ([ngModel])="password" type="password" class="person">  
+      </ion-input>
+    </ion-item>
+
+    <ion-item class="person-item">
+      <ion-label float>
+          <ion-icon ios="ios-pin-outline" md="ios-pin-outline" class="person-icon"></ion-icon>
+      </ion-label>
+      <ion-input placeholder="الإمارة" ([ngModel])="password" type="text" class="person">  
+      </ion-input>
+    </ion-item>
+
+
+    <ion-row class="space"></ion-row>
+
+    <ion-row class="btn-row">
+      <button ion-button full class="ar" (click)="Register()">انشاء حساب</button>
+        <ion-row class="space"></ion-row>
+    </ion-row>
+  </ion-list>
+
+</ion-content>

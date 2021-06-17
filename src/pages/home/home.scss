@@ -1,0 +1,149 @@
+page-home {
+    .col-notify {
+        text-align: left;
+    }
+    .notify ,.menu-ico{
+        color:#fff;
+        font-size: 25px;
+    }
+    p.badge-number{
+        background: red;
+        padding: 3px;
+        border-radius: 27%;
+        color: #fff;
+    }
+    .toolbar-background-md {
+        background: #05bc84;;
+    }
+    .badge-md {
+        background: transparent;
+    }
+    .badge {
+        position: absolute;
+        top: 0px;
+        left: 0;
+    }
+    .toolbar-md {
+    min-height: 60px;
+    }
+    .header-logo {
+        display: table;
+        margin:0 auto;
+        width: 300px;
+    height: 80px;
+    }
+    .bar-button-menutoggle-md {
+        min-width: 0px !important;
+        position: absolute;
+        right: 0;
+        top: 28px;
+    }
+
+    //home
+     p.para1{
+        font-family: 'Kufi';
+        font-size: 16px;
+        line-height: 1;
+    }
+    p.para2 {
+        font-family: 'Kufi';
+        font-size: 12px;
+    }
+    span.drham {
+        font-size: 12px;
+        color: #eee;
+        line-height: 1;
+        font-weight: 100;
+    }
+    .profile-wrapper {
+        padding-right: 4px;
+        color:#fff;
+        background: #05bc84;
+        direction: rtl;
+        height: 80px;
+    }
+    .profile {
+        width: 62px;
+        height: 62px;
+        color: #fafafa;
+        border: 2px solid #fff;
+        border-radius: 10px;
+    }
+    .content-md {
+        background: #05bc84;
+    }
+    ion-col.profile-text {
+        margin-right: 20px;
+        height: 0;
+    }
+    p.dot {
+        color: #ff9f55;
+        position: relative;
+        top: -268px;
+        left: -46px;
+        border-radius: 30px;
+        font-size: 108px;
+        height: 0;
+    }
+    p.para2, p.para1, p.para3 {
+        line-height: 0;
+    }
+    .box {
+        margin-top: 16px;
+        border-radius: 20px 20px 0px 0px;
+        background: #fff;
+        padding-top: 25px;
+        height: 200vh;
+        overflow: scroll;
+    }
+    ion-icon{
+        line-height:0 
+        }
+    .box-wrapper{
+      display: table;
+      margin:0 auto
+    }
+    .slide-img{
+        border-radius: 10px;
+    }
+    p.caption {
+        position: absolute;
+        top: 6px;
+        right: 9px;
+        background: #fff;
+        color: red;
+        padding: 3px;
+        border-radius: 7px;
+        font-size: 14px;
+    }
+    p.content {
+        position: absolute;
+        top: 40px;
+        right: 9px;
+        font-size: 12px;
+        color: #fff;
+        text-align: right;
+    }
+
+    .spacer {
+        margin-top:20px
+    }
+    .row1 {
+        text-align: center;
+        margin-bottom: 20px;
+        direction: rtl;
+    }
+    .bg1 {
+        box-shadow: 1px 0px 3px 1px #ccc;
+        padding-top: 3px;
+        padding-bottom: 2px;
+        padding-right: 1px;
+        border-radius: 10px;
+        font-size: 13px;
+        border-radius: 10px;
+        width: 30%;
+        flex: 30%;
+        margin-left: 9px;
+        max-width: 30%;
+    }
+}
