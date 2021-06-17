@@ -31,6 +31,7 @@ button.ar {
   border-radius: 6px;
   height: 5rem;
   box-shadow: 3px 2px 4px 2px #06d495;
+  font-family: 'KufiBold';
 }
 button.en {
   background: #e2e2e2;
@@ -39,6 +40,7 @@ button.en {
   color:#878787;  
   box-shadow: 3px 2px 4px 2px #e2e2e2;
   margin-top: 15px;
+  font-family: 'KufiBold';
 }
 button.ar > span.button-inner {
    font-family: 'Kufi';
@@ -47,9 +49,7 @@ button.ar > span.button-inner {
 }
 button.en > span.button-inner {
     font-size: 20px;
-    font-family: 'Kufi';
-
-    font-weight: 500;
+    font-family: 'KufiBold';
 }
 button-md.activated {
   background:#06d495;
