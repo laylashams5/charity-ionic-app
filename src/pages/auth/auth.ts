@@ -124,7 +124,7 @@ export class AuthPage {
   }
 
   LoginAsVistor() {
-
+    this.navCtrl.setRoot(HomePage);							
   }
   Back() {
     this.navCtrl.setRoot(IntroPage)

@@ -1,0 +1,17 @@
+https://kvzmhwvwrscebplqugbn.supabase.co/auth/v1/token?grant_type=password
+
+
+headers : {
+	apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyMjAxNjY3OCwiZXhwIjoxOTM3NTkyNjc4fQ.aFpVcHVQa1uJFDobp6zE8JLCeWcWXY2sPY3fJK6p7as
+
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyMjAxNjY3OCwiZXhwIjoxOTM3NTkyNjc4fQ.aFpVcHVQa1uJFDobp6zE8JLCeWcWXY2sPY3fJK6p7as
+
+}
+
+
+body :
+
+{
+    	"email": "mhmdfrj.97@gmail.com",
+	"password": "123456789"
+}

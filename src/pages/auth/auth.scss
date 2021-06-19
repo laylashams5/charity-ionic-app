@@ -64,7 +64,8 @@ p.forgot {
     margin-top: 30px;
 }
 .list-md .item-block .item-inner {
-  border-bottom:0px
+  border-bottom:0px;
+  height:45px
 }
 
 //start btn-user
@@ -75,10 +76,10 @@ p.forgot {
  margin-left: 10px;
  margin: 0 auto;
  margin-top: 10px;
- width: 80%;
+ width: 100%;
  min-height: 1.5rem !important;
  display: table;
- border-radius: 13px;
+ border-radius: 10px;
 }
 .input.text-input, .text-input-md{
   text-align: right !important;
